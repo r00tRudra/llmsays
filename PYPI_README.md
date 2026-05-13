@@ -90,6 +90,8 @@ llmsays "Analyze this legal clause" --providers Groq Openrouter
 llmsays "Summarize this API contract" --use-multiprocessing
 ```
 
+
+
 ## How Routing Works
 
 1. Heuristic pre-filter estimates complexity quickly.
