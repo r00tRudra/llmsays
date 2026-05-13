@@ -82,9 +82,6 @@ print(
 )
 ```
 
-
-
-
 ## CLI Usage
 
 ```bash
