@@ -73,7 +73,7 @@ def test_llmsays_passes_routed_tier_to_provider_calls(tier):
 		response = module.llmsays("test prompt")
 
 	assert response == f"ok:{tier}"
-	mock_call.assert_called_once_with("Groq", tier, "test prompt", 256, 0.1)
+	mock_call.assert_called_once_with("Groq", tier, "test prompt", 1024, 0.1)
 
 
 @pytest.mark.parametrize("tier", list(module.MODELS.keys()))

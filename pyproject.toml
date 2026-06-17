@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "llmsays"
-version = "0.1.0"
+version = "0.1.3"
 description = "One-line LLM queries with smart routing and provider failover"
 authors = [
     { name = "Abhiraj Adhikary", email = "abhirajadhikary06@gmail.com" },

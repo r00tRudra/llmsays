@@ -32,7 +32,7 @@ Set at least one provider key (multiple keys recommended for failover):
 
 - `GROQ_API_KEY`
 - `OPENROUTER_API_KEY`
-- `NIVIDIA_API_KEY`
+- `NVIDIA_API_KEY`
 - `FIREWORKSAI_API_KEY`
 - `BASETEN_API_KEY`
 
@@ -64,7 +64,7 @@ from llmsays import llmsays
 print(
 	llmsays(
 		"Analyze this legal clause",
-		provider_preference=["Groq", "Openrouter", "Fireworks"],
+		provider_preference=["Groq", "Openrouter", "fireworks-ai"],
 	)
 )
 ```

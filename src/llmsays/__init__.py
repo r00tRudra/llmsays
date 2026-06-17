@@ -235,7 +235,7 @@ def benchmark_provider_latency(
 
 def llmsays(
     query: object,
-    max_tokens: int = 256,
+    max_tokens: int = 1024,
     temperature: float = 0.1,
     provider_preference: Optional[Iterable[str]] = None,
     use_multiprocessing: bool = False,
@@ -267,7 +267,7 @@ def llmsays(
 def cli():
     parser = argparse.ArgumentParser(description="llmsays CLI")
     parser.add_argument("query", help="Prompt for LLM")
-    parser.add_argument("--max-tokens", type=int, default=256, help="Max tokens")
+    parser.add_argument("--max-tokens", type=int, default=1024, help="Max tokens")
     parser.add_argument(
         "--providers",
         nargs="*",
